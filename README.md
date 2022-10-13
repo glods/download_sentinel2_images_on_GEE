@@ -31,22 +31,27 @@ you need to have `Python (version 3 is preferable)` on your system
     `generate_im1 = download_s2_images (api, boundaries_path, start_date,end_date, cloud_percentage=cloud_percentage, function=function, folder=folder)`
 
 - Download images
-  -  Download MNDWI
+  -  Download MNDWI 
+  -  
   ` tasks = generate_im1.get_all_mosaic(["mndwi"]) 
+  
     for tsk in tasks:
+    
     tsk.start()
     `
   - Download S2CLOUDLESS
 
-  `
-  tasks = generate_im1.get_all_mosaic(["cloud"])
-  for tsk in tasks:
+    `
+    tasks = generate_im1.get_all_mosaic(["cloud"]) 
+  
+    for tsk in tasks:
+  
       tsk.start()
       `
 
   - Download RGB
-  `
-  tasks = generate_im1.get_all_mosaic(["rgb"])
-  for tsk in tasks:
-    tsk.start()
-  `
+    `
+    tasks = generate_im1.get_all_mosaic(["rgb"])
+    for tsk in tasks:
+      tsk.start()
+    `
