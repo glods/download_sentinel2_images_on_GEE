@@ -33,10 +33,10 @@ you need to have `Python (version 3 is preferable)` on your system
 - Download images
   -  Download MNDWI 
    
-    `tasks = generate_im1.get_all_mosaic(["mndwi"]) `    
-     `for tsk in tasks:`    
-        `tsk.start()`
-    
+     `tasks = generate_im1.get_all_mosaic(["mndwi"]) `    
+      `for tsk in tasks:`    
+         `tsk.start()`
+
   - Download S2CLOUDLESS
 
     `tasks = generate_im1.get_all_mosaic(["cloud"]) `    
