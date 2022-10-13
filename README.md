@@ -36,19 +36,15 @@ you need to have `Python (version 3 is preferable)` on your system
   ` tasks = generate_im1.get_all_mosaic(["mndwi"]) `
     `for tsk in tasks:`
        `tsk.start()`
-    `
+    
   - Download S2CLOUDLESS
 
     `tasks = generate_im1.get_all_mosaic(["cloud"]) `    
-     `for tsk in tasks:`
-     
+     `for tsk in tasks:`    
         `tsk.start()`
 
-  - Download RGB
-  
-    `tasks = generate_im1.get_all_mosaic(["rgb"])`
-    
-     `for tsk in tasks:`
-     
+  - Download RGB 
+    `tasks = generate_im1.get_all_mosaic(["rgb"])` 
+     `for tsk in tasks:`  
         `tsk.start()`
     
