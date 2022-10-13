@@ -8,7 +8,9 @@ This repository contains a python code to download sentinel-2 images on GEE. Som
 """
 
 # How it works
+
 you need to have `Python (version 3 is preferable)` on your system
+
 - Import the module
 `from download_s2_GEE  import *`
 
@@ -37,10 +39,10 @@ you need to have `Python (version 3 is preferable)` on your system
 
  -The method to apply to the image collection. There are 2 main method : mosaic and median
 
-   `function= 'mosaic'`
+   `function= 'mosaic'
 
-generate_im1 = download_s2_images (api, boundaries_path, start_date,end_date, cloud_percentage=cloud_percentage, function=function, folder=folder)
-
+    generate_im1 = download_s2_images (api, boundaries_path, start_date,end_date, cloud_percentage=cloud_percentage, function=function, folder=folder)
+`
 
 -  Download MNDWI
   
