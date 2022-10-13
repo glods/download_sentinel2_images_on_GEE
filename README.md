@@ -15,7 +15,7 @@ you need to have `Python (version 3 is preferable)` on your system
 `from download_s2_GEE  import *`
 
 - VARIABLE SETUP
- - GEE API
+  - GEE API
 
    `api = ee`
    
