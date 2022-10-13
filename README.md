@@ -44,7 +44,7 @@ you need to have `Python (version 3 is preferable)` on your system
         `tsk.start()`
 
   - Download RGB 
-    `tasks = generate_im1.get_all_mosaic(["rgb"])` 
+    `tasks = generate_im1.get_all_mosaic(["rgb"]) ` 
      `for tsk in tasks:`  
         `tsk.start()`
     
