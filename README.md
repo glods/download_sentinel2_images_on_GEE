@@ -39,14 +39,18 @@ you need to have `Python (version 3 is preferable)` on your system
     `
   - Download S2CLOUDLESS
 
-    `tasks = generate_im1.get_all_mosaic(["cloud"]) `
+    `tasks = generate_im1.get_all_mosaic(["cloud"]) ` 
+    
      `for tsk in tasks:`
+     
         `tsk.start()`
       `
 
   - Download RGB
   
     `tasks = generate_im1.get_all_mosaic(["rgb"])`
+    
      `for tsk in tasks:`
+     
         `tsk.start()`
     
