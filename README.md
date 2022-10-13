@@ -2,10 +2,10 @@
 #======================================================================================
 
 # Description
-"""
+
 This repository contains a python code to download sentinel-2 images on GEE. Some images that can be download are :
  `RGB`, `MNDWI`, `NDWI`, `S2cloudless layer`, and the `mask cloud layer` (both for RGB and MNDWI).
-"""
+
 
 # How it works
 
