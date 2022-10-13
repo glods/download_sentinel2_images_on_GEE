@@ -49,3 +49,7 @@ you need to have `Python (version 3 is preferable)` on your system
      `for tsk in tasks:`    
         `tsk.start()`
     
+
+
+# Author
+Glorie M. WOWO ; [![My Linkedin link](https://cm.linkedin.com/in/glorie-metsa-wowo-97642211b)
