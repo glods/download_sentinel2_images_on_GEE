@@ -52,4 +52,4 @@ you need to have `Python (version 3 is preferable)` on your system
 
 
 # Author
-Glorie M. WOWO ; [![My Linkedin link](https://cm.linkedin.com/in/glorie-metsa-wowo-97642211b)
+Glorie M. WOWO ; [My Linkedin link](https://cm.linkedin.com/in/glorie-metsa-wowo-97642211b)
